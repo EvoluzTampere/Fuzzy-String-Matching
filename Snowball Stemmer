@@ -1,0 +1,11 @@
+As to the documentation of the snowball stemmer (https://www.nltk.org/_modules/nltk/stem/snowball.html), 
+there is no the remove of Finnish punctuation (remove the space, or dash or enter) to fit our Ilari's data, 
+the adding of Space package on remove punc, lemma could be considered (https://spacy.io/usage/#section-instructions). 
+Therefore, the planning stage of mining could be:
+ 
+1, remove punc, remove lemma, stopwords
+2, dash issue
+3, detect charset 
+4, decode
+5, tokenize
+6, snowball stemmer

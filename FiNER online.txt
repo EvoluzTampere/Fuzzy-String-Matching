@@ -1,0 +1,2 @@
+wget http://195.148.30.97/cgi-bin/fintag.py
+curl http://195.148.30.97/cgi-bin/fintag.py

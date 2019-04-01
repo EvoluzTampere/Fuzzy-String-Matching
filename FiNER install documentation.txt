@@ -1,0 +1,13 @@
+https://korp.csc.fi/download/finnish-tagtools/v1.3/
+
+download it in the directory you want:
+$ wget https://korp.csc.fi/download/finnish-tagtools/v1.3/finnish-tagtools-1.3.2.zip
+
+un-compress it:
+$ unzip finnish-tagtools-1.3.2.zip
+
+and install it (as it says its Readme), by going into the un-compressed directory and running the command make on its Makefile file. 
+This is:
+
+$ cd finnish-tagtools-1.3.2
+$ sudo make install
