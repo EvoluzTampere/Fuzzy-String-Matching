@@ -1,4 +1,4 @@
-# Fuzzy-String-Matching
+# Evoluz Project
 # First paragraph: general description
 Project EVOLUZ, financed by the Academy of Finland (duration: 2017-2021) is a research project, which addresses the need to understand and support historians' work tasks in digital invironment.  Our goal is to understand and to develop methods and tools for improving information interactions of the end users accessing digital cultural heritage collections.  The research is based on the task-based information interactions (TBII paradigm). Personnel: Dr. Heikki Keskustalo (research leader), Dr. Sanna Kumpulainen (user studies), Dr. Boyang Zhang (constructive research and development). National and international cooperation: Dr. Jaap Kamps, University of Amsterdam; Dr. Kimmo Kettunen, National Library of Finland; Dr. Marko Tikka, University of Tampere; Dr. Krisztian NBalog, University of Stavanger; Dr. Thea Lindquist, University of Colorado Boulder.  This GitHub site is intended for documenting and sharing the programming codes developed during the research.
 # 
