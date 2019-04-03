@@ -30,6 +30,8 @@ The tasks include:
 4. Create
 5. Perform 
 
+# This cite contains codes for process Finnish historical letters
+
 ## Data sources
 
 * [Sotasampo resourse/dataset](http://www.ldf.fi/dataset/warsa)(SPARQL query https://www.w3.org/2009/08/skos-reference/skos.html#)
