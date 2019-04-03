@@ -21,11 +21,11 @@ behind actions and by this enable combining task-based approach into tool develo
 evaluation.
 # Third paragraph: keeping track: goals of the project vs the code
 
-# ABOUT
+# ABOUT (briefly describe of the .py for which purposes, description of the resources).
 This repository contains the code to collect .  
 The tasks include:
-1. collect 
-2. Language 
+1. collect (one sentence)
+2. Language (explain each simple terms with very simple sentences)
 3. Identity 
 4. Create
 5. Perform 
