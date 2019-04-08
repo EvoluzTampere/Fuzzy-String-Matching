@@ -32,7 +32,9 @@ The tasks include:
 
 # This cite contains codes for process Finnish historical letters with detailed description
 
-dash.py is used to process dash related issues in a meaningful way, dashes appeared in OCRed texts, especially in the end of a line, dash.py is used to handle various situations.
+1. dash.py is used to process dash related issues in a meaningful way, dashes appeared in OCRed texts, especially in the end of a line, dash.py is used to handle various situations.
+2. stopwords remover.py is used to remove Finnish stopwords, there are the basic stopwords, can be enhanced.
+3. snowball.py is the NLTK package of the snowball stemmmer for Finnish languages.
 
 ## Data sources
 
