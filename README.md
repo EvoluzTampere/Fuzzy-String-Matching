@@ -30,7 +30,9 @@ The tasks include:
 4. Create
 5. Perform 
 
-# This cite contains codes for process Finnish historical letters
+# This cite contains codes for process Finnish historical letters with detailed description
+
+dash.py is used to process dash related issues in a meaningful way, dashes appeared in OCRed texts, especially in the end of a line, dash.py is used to handle various situations.
 
 ## Data sources
 
