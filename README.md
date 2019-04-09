@@ -35,6 +35,20 @@ The tasks include:
 1. dash.py is used to process dash related issues in a meaningful way, dashes appeared in OCRed texts, especially in the end of a line, dash.py is used to handle various situations.
 2. stopwords remover.py is used to remove Finnish stopwords, there are the basic stopwords, can be enhanced.
 3. snowball.py is the NLTK package of the snowball stemmmer for Finnish languages.
+4. 10_selection is used to select everything 10th of the letters, it uses every nth method.
+5. BS4historicalExample.py and BeautifulSoup.py are used to analysis semi-structural HTML format historical letters. The package of Beautiful Soup can extract tags <> easy and categorise into various tags, it is a part of the process turnning unstructured raw data to structural database.
+6. FiNER install documentation.txt is the instruction on how to install FiNER on your own server, remember to run sudo (superuser).
+7. FiNER online.txt is how to download the FiNER.py from the launch server, it helps to test the interface designing. In Kielipankki, the FiNER is running by Lighttpt. 
+8. FrequencyCount.py is used to count the word frequency which is similiar to words count, entity frequency, and orderby then groupby with reverse number.
+9. Greetings_extraction.py is used to extract a word of the sentence.
+10. Linux creat password.txt is used to creat password for users when first launch the CSC cloud.
+11. Specific_Element.py is used to extract specific tags of the data with tagging by Beautiful Soup, we can use it to extract one or more tags needed, not all the tags are useful.
+12. _init_.py is the NLTK English NER Chunker, the output of the chunker is a nltk.tree object. Named entity recognition example, we can use that as example for annotating Finnish language.
+13.nltktest.py is used as example to test snowball stemmer in Finnish language.
+14.tokenisation.R is a r-studio programme used to annotating Finnish language, it works well, the limitation is without stemmer.
+
+
+
 
 ## Data sources
 
