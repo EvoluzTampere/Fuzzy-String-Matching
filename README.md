@@ -44,7 +44,9 @@ The tasks include:
 10. Linux creat password.txt is used to creat password for users when first launch the CSC cloud.
 11. Specific_Element.py is used to extract specific tags of the data with tagging by Beautiful Soup, we can use it to extract one or more tags needed, not all the tags are useful.
 12. _init_.py is the NLTK English NER Chunker, the output of the chunker is a nltk.tree object. Named entity recognition example, we can use that as example for annotating Finnish language.
+
 13.nltktest.py is used as example to test snowball stemmer in Finnish language.
+
 14.tokenisation.R is a r-studio programme used to annotating Finnish language, it works well, the limitation is without stemmer.
 
 
