@@ -48,8 +48,6 @@ The tasks include:
 14.tokenisation.R is a r-studio programme used to annotating Finnish language, it works well, the limitation is without stemmer.
 15. spool5.py The purpose of this program is to automatically annotate some war-time letter files, read all filenames and adding tags.
 
-
-
 ## Data sources
 
 * [Sotasampo resourse/dataset](http://www.ldf.fi/dataset/warsa)(SPARQL query https://www.w3.org/2009/08/skos-reference/skos.html#)
