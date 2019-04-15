@@ -20,6 +20,7 @@ are framed by a motivating task that triggers searching. We aim at better unders
 behind actions and by this enable combining task-based approach into tool development and
 evaluation.
 # Third paragraph: keeping track: goals of the project vs the code
+Because the project is trying to provides information retrieval tools for historians. The codes are used for designing of the analytic data flow, from data clearning to NLP data analysis. The data we are dealing with are Finnish historial OCRed letters, it can also be expanded to traditional letters, emails, English and other languages.
 
 # ABOUT (briefly describe of the .py for which purposes, description of the resources).
 This repository contains the code to collect .  
