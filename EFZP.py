@@ -173,7 +173,7 @@ def get_salutation(email_text):
                                      "terv",
                                      "heipa",
                                      "rakkaani",
-                                     "thankyou",
+                                     "moi",
                                      "ysta"]
     pattern = "(?P<salutation>(\s*\w*)*(" + string.joinfields(salutation_opening_statements, "|") + ")+(\s*\w*)*[\.,\xe2:]+\s*)"
     groups = re.match(pattern, email_text, re.IGNORECASE)
