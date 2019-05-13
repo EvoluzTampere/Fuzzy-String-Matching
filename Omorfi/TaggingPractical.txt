@@ -1,2 +1,73 @@
 Practical advice on how to to Omorfi tagging:
 
+-login to CSC server
+-installation (https://github.com/flammie/omorfi)
+-if you have imput test
+the file needs to be .text file
+-analyse and disambiguate
+-omorfi-disambiguate-text.sh -X test/test.text
+-save command to file command >> output.txt
+
+-interesting test:
+952  more output_test
+  953  cat output_test | egrep "CMP"
+  954  cat output_test | egrep "CMP" | wc -l
+  955  cat output_test | egrep "CMP=1" | wc -l
+  956  cat output_test | egrep -v "CMP=1" 
+  957  cat output_test | egrep "CMP" | egrep -v "CMP=1"
+  958  cat output_test | egrep "CMP" | sort
+  959  cat output_test | egrep "CMP" | sort -d
+  960  cat output_test | egrep "CMP" | awk 'print {$1" "$2}'
+  961  cat output_test | egrep "CMP" | awk 'print $1" "$2}'
+  962  cat output_test 
+  963  cat output_test | egrep "ADV"
+  964  cat output_test | egrep "ADV" | wc -l
+  965  cat output_test | egrep "aika"
+  966  cat output_test | egrep "aika|hyvin"
+  967  cat output_test | egrep "CMP" | awk 'print {$1" "$2}'
+  968  cat output_test | egrep "CMP" | awk '{print $1" "$2}'
+  969  cat output_test | egrep "CMP" | awk '{print $1 $2}'
+  970  cat output_test | egrep "CMP" | awk '{print $2 $2 $2 $1}'
+  971  cat output_test | egrep "CMP" | awk '{print $2"-----"$1}'
+  972  cat output_test | egrep "CMP" 
+  973  cat output_test | egrep "w"
+  974  cat output_test
+  975  cat output_test | grep "na\""
+  976  cat output_test | grep "na\"" | sed -s 'na/xy/'
+  977  cat output_test | grep "na\"" | sed -s '/na/xy/'
+  978  cat output_test 
+  979  cat output_test | egrep "\""
+  980  cat output_test | egrep "\""  | egrep -v "<"
+  981  cat output_test | egrep "\""  | egrep -v "\<"
+  982  cat output_test | egrep "\"" 
+  983  cat output_test | egrep "\"" | egrep -v "<"
+  984  cat output_test | egrep "\"" | egrep -v "^<"
+  985  cat output_test | egrep "\"" | egrep -v "^\""
+  986  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $1}'
+  987  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $1}' | sort -d
+  988  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $1}' | sort -d | more
+  989  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $1}' | sort -d | uniq -c
+  990  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $1}' | sort -d | uniq -c | sort -rn
+  991  cat output_test 
+  992  cat output_test | grep "na\"" | sed -s '/na/xy/'
+  993  cat output_test | egrep ","
+  994  cat output_test | egrep "PUNC"
+  995  cat output_test | egrep "luulen"
+  996  cat output_test | egrep "luulen" | sed 's/u/x/'
+  997  cat output_test | egrep "luulen" | sed 's/u/x/g'
+  998  cat output_test 
+  999  cat output_test | egrep "\"" | egrep -v "^\"" 
+ 1000  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2}'
+ 1001  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2}' | sort -d
+ 1002  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2}' | sort -d | uniq -c
+ 1003  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2}' | sort -d | uniq -c | sort -nr
+ 1004  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2" "$3}'
+ 1005  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2" "$3}' | sort -d
+ 1006  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2" "$3}' | sort -d | uniq -c
+ 1007  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2" "$3}' | sort -d | uniq -c | sort -nr
+ 1008  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2" "$3}' | sort -d | uniq -c | sort -nr | head -10
+ 1009  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2}' | sort -d | uniq -c | sort -nr | head -10
+ 1010  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2" "$3" "$4}' | sort -d | uniq -c | sort -nr | head -10
+ 1011  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2" "$3" "$4}' | sort -d | uniq -c | sort -nr 
+ 1012  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2"}' | sort -d | uniq -c | sort -nr 
+ 1013  cat output_test | egrep "\"" | egrep -v "^\"" | awk '{print $2}' | sort -d | uniq -c | sort -nr 
