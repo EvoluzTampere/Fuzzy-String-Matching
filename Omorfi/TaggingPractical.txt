@@ -4,7 +4,7 @@ Practical advice on how to to Omorfi tagging:
 -installation (https://github.com/flammie/omorfi)
 -if you have imput test
 the file needs to be .text file
--analyse and disambiguate
+-analyse and disambiguate in the omorfi-develop folder
 -omorfi-disambiguate-text.sh -X test/test.text
 -save command to file command >> output.txt
 
